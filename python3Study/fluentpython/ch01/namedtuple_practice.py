@@ -22,6 +22,7 @@ def hello():
     p2 = p._replace(x=100) # _replace() is like str.replace() but targets named fields
     print(p2)
 
+# 这个方法证明`namedtuple`是可以提供大于`2`的字段的。
 def hello2():
     Student = namedtuple('Student', ['id', 'name', 'age'])
     print(Student.__doc__)
