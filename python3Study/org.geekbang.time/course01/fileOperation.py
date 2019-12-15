@@ -1,16 +1,16 @@
-def readFile():
+def read_file():
     with open('text.txt', 'r') as fin:
         text = fin.read()
         print(text)
         return text
 
 
-def writeFile(text):
-    with open('out.txt', 'w') as fout:
-        fout.write(text)
+def write_file(text):
+    with open('out.txt', 'w') as file_out:
+        file_out.write(text)
 
 def main():
-    writeFile(readFile())
+    write_file(read_file())
 
 
 if __name__ == '__main__':
