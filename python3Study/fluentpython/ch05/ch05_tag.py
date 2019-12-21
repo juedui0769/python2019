@@ -1,3 +1,7 @@
+
+# 需要把 "fluentpython"目录 加入到 PyCharm 的 "Sources Root" 中
+# 其他文件通过 `from fluentpython.ch05.ch05_tag import tag` 引用本文件
+
 def tag(name, *content, cls=None, **attrs):
     """生成一个或多个HTML标签"""
     if cls is not None:

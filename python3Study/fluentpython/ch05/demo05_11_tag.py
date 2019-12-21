@@ -1,6 +1,8 @@
 # import ./tag
 
 import sys
+
+# 需要把 "fluentpython"目录 加入到 PyCharm 的 "Sources Root" 中
 from fluentpython.ch05.ch05_tag import tag
 
 def test01():
